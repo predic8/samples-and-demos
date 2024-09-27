@@ -1,12 +1,18 @@
 {
-    "aliases": {
-        "sql": {
-            "script-ref": "jbang/sql.java",
-            "description": "Commandline to execute SQL command"
-        },
-        "membrane": {
-            "script-ref": "jbang org.membrane-soa:starter:5.7.0",
-            "description": "Membrane API Gateway"
-        }
+  "catalogs": {
+    "predic8": {
+      "catalog-ref": "https://github.com/predic8/samples-and-demos/blob/HEAD/jbang-catalog.json"
     }
+  },
+  "aliases": {
+    "sql": {
+      "script-ref": "jbang/sql.java",
+      "description": "Commandline to execute SQL command"
+    },
+    "membrane": {
+      "script-ref": "org.membrane-soa:starter:5.7.0",
+      "description": "Membrane API Gateway"
+    }
+  },
+  "templates": {}
 }
