@@ -1,0 +1,8 @@
+{
+    "aliases": {
+        "sql": {
+            "script-ref": "jbang/sql.java",
+            "description": "Commandline to execute SQL command"
+        }
+    }
+}
