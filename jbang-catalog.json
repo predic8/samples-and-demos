@@ -1,10 +1,9 @@
 {
-  "catalogs": {
-    "predic8": {
-      "catalog-ref": "https://github.com/predic8/samples-and-demos/blob/HEAD/jbang-catalog.json"
-    }
-  },
   "aliases": {
+    "h2": {
+        "script-ref": "jbang/h2.java",
+      "description": "Starts the h2 database server"
+    },
     "sql": {
       "script-ref": "jbang/sql.java",
       "description": "Commandline to execute SQL command"
@@ -13,6 +12,5 @@
       "script-ref": "org.membrane-soa:starter:5.7.0",
       "description": "Membrane API Gateway"
     }
-  },
-  "templates": {}
+  }
 }
