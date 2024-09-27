@@ -3,6 +3,10 @@
         "sql": {
             "script-ref": "jbang/sql.java",
             "description": "Commandline to execute SQL command"
+        },
+        "membrane": {
+            "script-ref": "jbang org.membrane-soa:starter:5.7.0",
+            "description": "Membrane API Gateway"
         }
     }
 }
